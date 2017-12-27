@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    /* display:flex; */
+    background-color: #c4c4c433;
+    /* height: 100vh; */
+    padding:20px;
+    /* justify-content: space-around; */
+}
+
+.box{
+    background-color: #7ca5db;
+    padding:20px;
+    flex-basis:30%;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+
+@media (min-width: 900px) {
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
