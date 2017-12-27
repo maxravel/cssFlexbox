@@ -26,4 +26,5 @@
     }
   }
 
+.box:nth-child(2) {background-color: #62f36a;}
 .box:nth-child(3) {background-color: #ccb9da;}
