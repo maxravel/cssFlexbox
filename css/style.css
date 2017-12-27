@@ -2,10 +2,13 @@
     margin:0px;
     padding:0px;
 }
+body{
+    background-color:#c4c4c433;
+}
 
 .container{
     /* display:flex; */
-    background-color: #c4c4c433;
+    /* background-color: #c4c4c433; */
     /* height: 100vh; */
     padding:20px;
     /* justify-content: space-around; */
@@ -28,3 +31,16 @@
 
 .box:nth-child(2) {background-color: #62f36a;}
 .box:nth-child(3) {background-color: #ccb9da;}
+
+.banner{
+    width:30vw;
+    height:30vh;
+    display:flex;
+    margin:15vh auto 15vh auto;
+    background-color:#fcb024
+}
+
+.center{
+    margin: auto;
+    font-size:2vh;
+}
