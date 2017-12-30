@@ -144,3 +144,10 @@ h1{
     background-color: #1bf7b5;
     flex:1;
 }
+
+footer{
+    text-align:center;
+    border-top: 3px solid black;
+    font-size:3vh;
+    font-weight: bold;
+}
